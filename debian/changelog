@@ -1,0 +1,113 @@
+node-which (2.0.2+~cs1.3.2-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix GitHub tags regex
+  * Fix filenamemangle
+  * Replace dependency to nodejs by nodejs:any
+
+ -- Yadd <yadd@debian.org>  Tue, 09 Nov 2021 11:47:52 +0100
+
+node-which (2.0.2+~cs1.3.2-1) unstable; urgency=medium
+
+  * Team upload
+  * Update minimum version of node-isexe (for /usr/share/nodejs)
+  * Add @types/which as component
+  * New upstream version 2.0.2+~cs1.3.2
+  * Bump Standards-Version to 4.5.1 (no changes needed)
+  * Add @types/which as root modules
+  * Add nodejs:Provides for exposing components as virtual packages
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 06 Jan 2021 19:30:23 +0530
+
+node-which (2.0.2-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set field Upstream-Contact in debian/copyright.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Ignore bad test (Closes: #963373)
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 23 Jun 2020 09:45:51 +0200
+
+node-which (2.0.2-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 2.0.2
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 07 Dec 2019 08:48:05 +0100
+
+node-which (2.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * New upstream version 2.0.1
+  * Require nodejs ≥ 8
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 06 Nov 2019 06:56:14 +0100
+
+node-which (1.3.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * New upstream version 1.3.1
+  * Switch install and test to p kg-js-tools
+  * Update debian/copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 28 Aug 2019 22:19:41 +0200
+
+node-which (1.3.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Drop node->nodejs rename patch
+  * Use salsa.debian.org in Vcs-* fields (Move from collab-maint to js-team)
+  * Bump Standards-Version to 4.2.1 (no changes needed)
+  * Bump debhelper compatibility level to 11
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 13 Sep 2018 17:13:07 +0530
+
+node-which (1.3.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 04 Dec 2017 18:27:39 +0530
+
+node-which (1.2.11-1) unstable; urgency=medium
+
+  * New upstream version 1.2.11 (Closes: #843954)
+  * Depends node-isexe
+  * Copyright: Expat to ISC
+  * Autopkgtest
+  * Patch tests to support nodejs binary rename
+
+ -- Jérémy Lal <kapouer@melix.org>  Fri, 11 Nov 2016 12:03:40 +0100
+
+node-which (1.0.5-2) unstable; urgency=low
+
+  * Use github url in watch file.
+
+ -- Jérémy Lal <kapouer@melix.org>  Fri, 22 Mar 2013 01:59:12 +0100
+
+node-which (1.0.5-1) unstable; urgency=low
+
+  * Initial release (Closes: #642416)
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 17 Mar 2012 23:37:48 +0100

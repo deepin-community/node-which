@@ -1,0 +1,18 @@
+Description: ignore bad test
+ this test wants to find /bin/which and /usr/bin/which
+Author: Xavier Guimard <yadd@debian.org>
+Bug-Debian: https://bugs.debian.org/963373
+Forwarded: no
+Last-Update: 2020-06-23
+
+--- a/test/bin.js
++++ b/test/bin.js
+@@ -96,7 +96,7 @@
+           if (process.platform === 'win32') {
+             opt.skip = 'windows does not have builtin "which"'
+           }
+-          t.ok(out.length > 1, 'should have more than 1 result', opt)
++          //t.ok(out.length > 1, 'should have more than 1 result', opt)
+         }
+         t.end()
+       })
