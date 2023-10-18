@@ -24,6 +24,7 @@ Depends:
  , node-isexe (>= 2.0.0-5~)
  , nodejs:any
 Provides: ${nodejs:Provides}
+Multi-Arch: foreign
 Description: Cross-platform 'which' module for Node.js
  node-which finds the first instance of a specified executable
  in the PATH environment variable, simulating the behaviour of
